@@ -1,0 +1,62 @@
+{
+  "private": true,
+  "name": "FlightPlan",
+  "description": "FlightPlan app will share flight information with you",
+  "version": "1.0.0",
+  "author": "Dalawer Hossain Juwel <juwelrana090@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "build:all": "nextron build --all",
+    "build:win32": "nextron build --win --ia32",
+    "build:win64": "nextron build --win --x64",
+    "build:mac": "nextron build --mac --x64",
+    "build:linux": "nextron build --linux",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.9.2",
+    "amadeus": "^7.0.0",
+    "axios": "^0.27.2",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.0.2",
+    "next": "12.2.3",
+    "next-auth": "^4.10.2",
+    "next-themes": "^0.2.0",
+    "nextjs-progressbar": "^0.0.14",
+    "nextron": "^8.1.0",
+    "react": "18.2.0",
+    "react-dates": "^21.8.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-select": "^5.4.0",
+    "react-select-search": "^3.0.10",
+    "react-toastify": "^9.0.7",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.0",
+    "@types/react": "^18.0.15",
+    "electron": "19.0.9",
+    "electron-builder": "^23.1.0"
+  },
+  "build": {
+    "appId": "com.flightplan",
+    "directories": {
+      "buildResources": "resources"
+    },
+    "win": {
+      "icon": "resources/icon.png"
+    },
+    "mac": {
+      "icon": "resources/icon.png"
+    },
+    "linux": {
+      "icon": "resources/icon.png"
+    }
+  }
+}

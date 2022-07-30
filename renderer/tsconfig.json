@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "pages/_document.tsx2", "lib/airports.js", "pages/[id].tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

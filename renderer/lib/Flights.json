@@ -1,0 +1,1345 @@
+{
+    "itineraries": {
+        "buckets": [
+            {
+                "id": "Best",
+                "name": "Best",
+                "items": [
+                    {
+                        "id": "10901-2208111705--32301-0-11182-2208112035",
+                        "price": {
+                            "raw": 38781,
+                            "formatted": "BDT 38,781"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208111705--32301-0-11182-2208112035",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 330,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T17:05:00",
+                                "arrival": "2022-08-11T20:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32301,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FZ.png",
+                                            "name": "flydubai"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208111705-2208112035--32301",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T17:05:00",
+                                        "arrival": "2022-08-11T20:35:00",
+                                        "durationInMinutes": 330,
+                                        "flightNumber": "586",
+                                        "marketingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 41.466892
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 8.18739,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208111705--32301-0-11182-2208112035?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208112150--32301-0-11182-2208120125",
+                        "price": {
+                            "raw": 38781,
+                            "formatted": "BDT 38,781"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208112150--32301-0-11182-2208120125",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 335,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T21:50:00",
+                                "arrival": "2022-08-12T01:25:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32301,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FZ.png",
+                                            "name": "flydubai"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208112150-2208120125--32301",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T21:50:00",
+                                        "arrival": "2022-08-12T01:25:00",
+                                        "durationInMinutes": 335,
+                                        "flightNumber": "584",
+                                        "marketingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 41.466892
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 8.06519,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208112150--32301-0-11182-2208120125?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208111015--32348-0-11182-2208111305",
+                        "price": {
+                            "raw": 48347,
+                            "formatted": "BDT 48,347"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208111015--32348-0-11182-2208111305",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 290,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T10:15:00",
+                                "arrival": "2022-08-11T13:05:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32348,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EK.png",
+                                            "name": "Emirates"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208111015-2208111305--32348",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T10:15:00",
+                                        "arrival": "2022-08-11T13:05:00",
+                                        "durationInMinutes": 290,
+                                        "flightNumber": "583",
+                                        "marketingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 35.55994
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.47327,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208111015--32348-0-11182-2208111305?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    }
+                ]
+            },
+            {
+                "id": "Fastest",
+                "name": "Fastest",
+                "items": [
+                    {
+                        "id": "10901-2208111815--31437-0-11182-2208112100",
+                        "price": {
+                            "raw": 50743,
+                            "formatted": "BDT 50,743"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208111815--31437-0-11182-2208112100",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 285,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T18:15:00",
+                                "arrival": "2022-08-11T21:00:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -31437,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BX.png",
+                                            "name": "US-Bangla Airlines"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208111815-2208112100--31437",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T18:15:00",
+                                        "arrival": "2022-08-11T21:00:00",
+                                        "durationInMinutes": 285,
+                                        "flightNumber": "341",
+                                        "marketingCarrier": {
+                                            "id": -31437,
+                                            "name": "US-Bangla Airlines",
+                                            "alternateId": "BX",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31437,
+                                            "name": "US-Bangla Airlines",
+                                            "alternateId": "BX",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 34.075504
+                        },
+                        "tags": [
+                            "shortest"
+                        ],
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.24528,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208111815--31437-0-11182-2208112100?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208110140--32348-0-11182-2208110430",
+                        "price": {
+                            "raw": 50360,
+                            "formatted": "BDT 50,360"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208110140--32348-0-11182-2208110430",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 290,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T01:40:00",
+                                "arrival": "2022-08-11T04:30:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32348,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EK.png",
+                                            "name": "Emirates"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208110140-2208110430--32348",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T01:40:00",
+                                        "arrival": "2022-08-11T04:30:00",
+                                        "durationInMinutes": 290,
+                                        "flightNumber": "585",
+                                        "marketingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 30.273836
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.17457,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208110140--32348-0-11182-2208110430?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208111015--32348-0-11182-2208111305",
+                        "price": {
+                            "raw": 48347,
+                            "formatted": "BDT 48,347"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208111015--32348-0-11182-2208111305",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 290,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T10:15:00",
+                                "arrival": "2022-08-11T13:05:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32348,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EK.png",
+                                            "name": "Emirates"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208111015-2208111305--32348",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T10:15:00",
+                                        "arrival": "2022-08-11T13:05:00",
+                                        "durationInMinutes": 290,
+                                        "flightNumber": "583",
+                                        "marketingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 35.55994
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.47327,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208111015--32348-0-11182-2208111305?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    }
+                ]
+            },
+            {
+                "id": "Cheapest",
+                "name": "Cheapest",
+                "items": [
+                    {
+                        "id": "10901-2208110700--32504,-31826,-32671-2-11182-2208111700",
+                        "price": {
+                            "raw": 36765,
+                            "formatted": "BDT 36,765"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208110700--32504,-31826,-32671-2-11182-2208111700",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 720,
+                                "stopCount": 2,
+                                "isSmallestStops": false,
+                                "departure": "2022-08-11T07:00:00",
+                                "arrival": "2022-08-11T17:00:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32504,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BG.png",
+                                            "name": "Biman Bangladesh Airlines"
+                                        },
+                                        {
+                                            "id": -31826,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/0S.png",
+                                            "name": "SpiceJet"
+                                        },
+                                        {
+                                            "id": -32671,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/IX.png",
+                                            "name": "Air India Express"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-10401-2208110700-2208110725--32504",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CCU",
+                                            "parent": {
+                                                "flightPlaceId": "ICCU",
+                                                "name": "Kolkata",
+                                                "type": "City"
+                                            },
+                                            "name": "Kolkata",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T07:00:00",
+                                        "arrival": "2022-08-11T07:25:00",
+                                        "durationInMinutes": 55,
+                                        "flightNumber": "391",
+                                        "marketingCarrier": {
+                                            "id": -32504,
+                                            "name": "Biman Bangladesh Airlines",
+                                            "alternateId": "BG",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32504,
+                                            "name": "Biman Bangladesh Airlines",
+                                            "alternateId": "BG",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "10401-10075-2208110935-2208111220--31826",
+                                        "origin": {
+                                            "flightPlaceId": "CCU",
+                                            "parent": {
+                                                "flightPlaceId": "ICCU",
+                                                "name": "Kolkata",
+                                                "type": "City"
+                                            },
+                                            "name": "Kolkata",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "BOM",
+                                            "parent": {
+                                                "flightPlaceId": "IBOM",
+                                                "name": "Mumbai",
+                                                "type": "City"
+                                            },
+                                            "name": "Mumbai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T09:35:00",
+                                        "arrival": "2022-08-11T12:20:00",
+                                        "durationInMinutes": 165,
+                                        "flightNumber": "242",
+                                        "marketingCarrier": {
+                                            "id": -31826,
+                                            "name": "SpiceJet",
+                                            "alternateId": "0S",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31826,
+                                            "name": "SpiceJet",
+                                            "alternateId": "0S",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "10075-11182-2208111510-2208111700--32671",
+                                        "origin": {
+                                            "flightPlaceId": "BOM",
+                                            "parent": {
+                                                "flightPlaceId": "IBOM",
+                                                "name": "Mumbai",
+                                                "type": "City"
+                                            },
+                                            "name": "Mumbai",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T15:10:00",
+                                        "arrival": "2022-08-11T17:00:00",
+                                        "durationInMinutes": 200,
+                                        "flightNumber": "247",
+                                        "marketingCarrier": {
+                                            "id": -32671,
+                                            "name": "Air India Express",
+                                            "alternateId": "IX",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32671,
+                                            "name": "Air India Express",
+                                            "alternateId": "IX",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": true,
+                        "eco": {
+                            "ecoContenderDelta": 11.449945
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 3.59848,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208110700--32504,-31826,-32671-2-11182-2208111700?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208110700--32504,-31826,-32213-2-11182-2208111655",
+                        "price": {
+                            "raw": 37723,
+                            "formatted": "BDT 37,723"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208110700--32504,-31826,-32213-2-11182-2208111655",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 715,
+                                "stopCount": 2,
+                                "isSmallestStops": false,
+                                "departure": "2022-08-11T07:00:00",
+                                "arrival": "2022-08-11T16:55:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32504,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/BG.png",
+                                            "name": "Biman Bangladesh Airlines"
+                                        },
+                                        {
+                                            "id": -31826,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/0S.png",
+                                            "name": "SpiceJet"
+                                        },
+                                        {
+                                            "id": -32213,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/49.png",
+                                            "name": "IndiGo"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-10401-2208110700-2208110725--32504",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "CCU",
+                                            "parent": {
+                                                "flightPlaceId": "ICCU",
+                                                "name": "Kolkata",
+                                                "type": "City"
+                                            },
+                                            "name": "Kolkata",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T07:00:00",
+                                        "arrival": "2022-08-11T07:25:00",
+                                        "durationInMinutes": 55,
+                                        "flightNumber": "391",
+                                        "marketingCarrier": {
+                                            "id": -32504,
+                                            "name": "Biman Bangladesh Airlines",
+                                            "alternateId": "BG",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32504,
+                                            "name": "Biman Bangladesh Airlines",
+                                            "alternateId": "BG",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "10401-10075-2208110935-2208111220--31826",
+                                        "origin": {
+                                            "flightPlaceId": "CCU",
+                                            "parent": {
+                                                "flightPlaceId": "ICCU",
+                                                "name": "Kolkata",
+                                                "type": "City"
+                                            },
+                                            "name": "Kolkata",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "BOM",
+                                            "parent": {
+                                                "flightPlaceId": "IBOM",
+                                                "name": "Mumbai",
+                                                "type": "City"
+                                            },
+                                            "name": "Mumbai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T09:35:00",
+                                        "arrival": "2022-08-11T12:20:00",
+                                        "durationInMinutes": 165,
+                                        "flightNumber": "242",
+                                        "marketingCarrier": {
+                                            "id": -31826,
+                                            "name": "SpiceJet",
+                                            "alternateId": "0S",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -31826,
+                                            "name": "SpiceJet",
+                                            "alternateId": "0S",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "10075-11182-2208111520-2208111655--32213",
+                                        "origin": {
+                                            "flightPlaceId": "BOM",
+                                            "parent": {
+                                                "flightPlaceId": "IBOM",
+                                                "name": "Mumbai",
+                                                "type": "City"
+                                            },
+                                            "name": "Mumbai",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T15:20:00",
+                                        "arrival": "2022-08-11T16:55:00",
+                                        "durationInMinutes": 185,
+                                        "flightNumber": "83",
+                                        "marketingCarrier": {
+                                            "id": -32213,
+                                            "name": "IndiGo",
+                                            "alternateId": "49",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32213,
+                                            "name": "IndiGo",
+                                            "alternateId": "49",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": true,
+                        "eco": {
+                            "ecoContenderDelta": 13.3421955
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 3.53168,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208110700--32504,-31826,-32213-2-11182-2208111655?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208111645--32213-1-11182-2208121840",
+                        "price": {
+                            "raw": 38583,
+                            "formatted": "BDT 38,583"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208111645--32213-1-11182-2208121840",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 1675,
+                                "stopCount": 1,
+                                "isSmallestStops": false,
+                                "departure": "2022-08-11T16:45:00",
+                                "arrival": "2022-08-12T18:40:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32213,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/49.png",
+                                            "name": "IndiGo"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-10957-2208111645-2208111855--32213",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DEL",
+                                            "parent": {
+                                                "flightPlaceId": "IDEL",
+                                                "name": "New Delhi",
+                                                "type": "City"
+                                            },
+                                            "name": "New Delhi",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T16:45:00",
+                                        "arrival": "2022-08-11T18:55:00",
+                                        "durationInMinutes": 160,
+                                        "flightNumber": "1865",
+                                        "marketingCarrier": {
+                                            "id": -32213,
+                                            "name": "IndiGo",
+                                            "alternateId": "49",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32213,
+                                            "name": "IndiGo",
+                                            "alternateId": "49",
+                                            "allianceId": 0
+                                        }
+                                    },
+                                    {
+                                        "id": "10957-11182-2208121635-2208121840--32213",
+                                        "origin": {
+                                            "flightPlaceId": "DEL",
+                                            "parent": {
+                                                "flightPlaceId": "IDEL",
+                                                "name": "New Delhi",
+                                                "type": "City"
+                                            },
+                                            "name": "New Delhi",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-12T16:35:00",
+                                        "arrival": "2022-08-12T18:40:00",
+                                        "durationInMinutes": 215,
+                                        "flightNumber": "21",
+                                        "marketingCarrier": {
+                                            "id": -32213,
+                                            "name": "IndiGo",
+                                            "alternateId": "49",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32213,
+                                            "name": "IndiGo",
+                                            "alternateId": "49",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 34.449814
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 1.62132,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208111645--32213-1-11182-2208121840?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    }
+                ]
+            },
+            {
+                "id": "Direct",
+                "name": "Direct",
+                "items": [
+                    {
+                        "id": "10901-2208111705--32301-0-11182-2208112035",
+                        "price": {
+                            "raw": 38781,
+                            "formatted": "BDT 38,781"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208111705--32301-0-11182-2208112035",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 330,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T17:05:00",
+                                "arrival": "2022-08-11T20:35:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32301,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FZ.png",
+                                            "name": "flydubai"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208111705-2208112035--32301",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T17:05:00",
+                                        "arrival": "2022-08-11T20:35:00",
+                                        "durationInMinutes": 330,
+                                        "flightNumber": "586",
+                                        "marketingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 41.466892
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 8.18739,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208111705--32301-0-11182-2208112035?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208112150--32301-0-11182-2208120125",
+                        "price": {
+                            "raw": 38781,
+                            "formatted": "BDT 38,781"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208112150--32301-0-11182-2208120125",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 335,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T21:50:00",
+                                "arrival": "2022-08-12T01:25:00",
+                                "timeDeltaInDays": 1,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32301,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FZ.png",
+                                            "name": "flydubai"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208112150-2208120125--32301",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T21:50:00",
+                                        "arrival": "2022-08-12T01:25:00",
+                                        "durationInMinutes": 335,
+                                        "flightNumber": "584",
+                                        "marketingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32301,
+                                            "name": "flydubai",
+                                            "alternateId": "FZ",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 41.466892
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 8.06519,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208112150--32301-0-11182-2208120125?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    },
+                    {
+                        "id": "10901-2208111015--32348-0-11182-2208111305",
+                        "price": {
+                            "raw": 48347,
+                            "formatted": "BDT 48,347"
+                        },
+                        "legs": [
+                            {
+                                "id": "10901-2208111015--32348-0-11182-2208111305",
+                                "origin": {
+                                    "id": "DAC",
+                                    "name": "Dhaka",
+                                    "displayCode": "DAC",
+                                    "city": "Dhaka",
+                                    "isHighlighted": false
+                                },
+                                "destination": {
+                                    "id": "DXB",
+                                    "name": "Dubai",
+                                    "displayCode": "DXB",
+                                    "city": "Dubai",
+                                    "isHighlighted": false
+                                },
+                                "durationInMinutes": 290,
+                                "stopCount": 0,
+                                "isSmallestStops": true,
+                                "departure": "2022-08-11T10:15:00",
+                                "arrival": "2022-08-11T13:05:00",
+                                "timeDeltaInDays": 0,
+                                "carriers": {
+                                    "marketing": [
+                                        {
+                                            "id": -32348,
+                                            "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EK.png",
+                                            "name": "Emirates"
+                                        }
+                                    ],
+                                    "operationType": "fully_operated"
+                                },
+                                "segments": [
+                                    {
+                                        "id": "10901-11182-2208111015-2208111305--32348",
+                                        "origin": {
+                                            "flightPlaceId": "DAC",
+                                            "parent": {
+                                                "flightPlaceId": "DACA",
+                                                "name": "Dhaka",
+                                                "type": "City"
+                                            },
+                                            "name": "Dhaka",
+                                            "type": "Airport"
+                                        },
+                                        "destination": {
+                                            "flightPlaceId": "DXB",
+                                            "parent": {
+                                                "flightPlaceId": "DXBA",
+                                                "name": "Dubai",
+                                                "type": "City"
+                                            },
+                                            "name": "Dubai",
+                                            "type": "Airport"
+                                        },
+                                        "departure": "2022-08-11T10:15:00",
+                                        "arrival": "2022-08-11T13:05:00",
+                                        "durationInMinutes": 290,
+                                        "flightNumber": "583",
+                                        "marketingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        },
+                                        "operatingCarrier": {
+                                            "id": -32348,
+                                            "name": "Emirates",
+                                            "alternateId": "EK",
+                                            "allianceId": 0
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "isSelfTransfer": false,
+                        "eco": {
+                            "ecoContenderDelta": 35.55994
+                        },
+                        "isMashUp": false,
+                        "hasFlexibleOptions": false,
+                        "score": 7.47327,
+                        "deeplink": "https://www.skyscanner.net/transport/flights/dac/dxb/220811/config/10901-2208111015--32348-0-11182-2208111305?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27540839&originentityid=27540668&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=0"
+                    }
+                ]
+            }
+        ]
+    },
+    "context": {
+        "status": "complete",
+        "sessionId": "26864362-1308-4cae-bac8-4abb8d9b1abe",
+        "totalResults": 52
+    }
+}

@@ -1,0 +1,135 @@
+
+
+    const options = {
+      method: 'GET',
+      url: 'https://skyscanner44.p.rapidapi.com/search',
+      params: {
+        adults: adlt,
+        origin: from,
+        destination: to,
+        departureDate: ddate,
+        cabinClass: clt,
+        currency: 'BDT'
+      },
+      headers: {
+        'X-RapidAPI-Key': 'b3904cea7cmsh83b16f1fe244004p1094cbjsncad301f2a599',
+        'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
+      }
+    };
+    
+    axios.request(options).then(function (response) {
+      // console.log(response.data);
+      
+      setFlightData(response.data);
+    }).catch(function (error) {
+      console.error(error);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* code, lat, lon, name, city, state, country, woeid, tz, phone, type, email, url, runway_length, elev, icao, direct_flights, carriers */}
+
+ {airports.map((airport, key) => ( 
+     <>
+    {   
+        // console.log(airport) 
+    } 
+     </>
+ ))
+ } 
+<div key={key}>{airport.code}</div>
+
+
+https://www.amadeus.net/
+
+https://www.skyscanner.net/
+
+// const amadeus = new Amadeus({
+//   clientId: 'YpAcRl9MBpUfRZUpH5rcz5DJqsJBRaJk',
+//   clientSecret: 'wZpszUAXqAW1lEbq'
+// });
+
+// amadeus.shopping.flightOffersSearch.get({
+//   originLocationCode: FlyiFrom,
+//   destinationLocationCode: FlyiTo,
+//   departureDate: deDate,
+//   adults: Adult,
+// }).then(function(response){
+//   console.log(response.data);
+//   setFlightData(response.data);
+// }).catch(function(responseError){
+//   const flightData = responseError.code;
+//   console.log(responseError.code);
+// });
+
+const options = {
+    method: 'GET',
+    url: 'https://travel-advisor.p.rapidapi.com/flights/create-session',
+    params: {
+    o1: 'DAC',
+    d1: 'DXB',
+    dd1: '2022-07-31',
+    currency: 'BDT',
+    // o2: 'DAC',
+    // d2: 'DXB',
+    ta: '1',
+    ts: '100',
+    c: '0'
+    },
+    headers: {
+    'X-RapidAPI-Key': '127b02d553msh99287e203116708p1a0e1bjsn7814cb0e364b',
+    'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
+    }
+};
+
+
+{/* <div className="col-12 mb-2">
+  <div className="accordion" id="Stops">
+    <div className="accordion-item">
+      <h2 className="accordion-header" id="headingOne">
+        <button className="accordion-button" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseStops" aria-expanded="true" aria-controls="collapseStops">
+        Stops
+        </button>
+      </h2>
+      <div id="collapseStops" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#Stops">
+        <div className="accordion-body">
+          <FormGroup>
+              <FormControlLabel
+                control={
+                  <Checkbox checked={gilad} onChange={handleChange} name="gilad" />
+                }
+                label="Direct"
+              />
+              <FormHelperText className="ml-4">from BDT 50,531</FormHelperText>
+              <FormControlLabel
+                control={
+                  <Checkbox checked={jason} onChange={handleChange} name="jason" />
+                }
+                label="1 stop"
+              />
+              <FormHelperText className="ml-4">from BDT 40,106</FormHelperText>
+              <FormControlLabel
+                control={
+                  <Checkbox checked={antoine} onChange={handleChange} name="antoine" />
+                }
+                label="2+ stops"
+              />
+              <FormHelperText className="ml-4">from BDT 36,382</FormHelperText>
+          </FormGroup>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> */}
+
